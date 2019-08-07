@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import home from "../../assets/images/categories/home.png";
-import car from "../../assets/images/categories/home.png";
+import car from "../../assets/images/categories/car.png";
 import game from "../../assets/images/categories/game.png";
 import clothes from "../../assets/images/categories/clothes.png";
 import mobile from "../../assets/images/categories/mobile.png";
@@ -38,28 +38,26 @@ class Categories extends Component {
   };
   render() {
     return (
-     <div className="container testimonial-group d-flex flex-row" > 
+      <div className="container  d-flex flex-row" style={{ overflowX: "auto" }}>
         {this.state.categories.map(item => (
-          <div className="mt-4 ml-3">
+          <div className="mt-4">
             <div
-              className="d-flex  justify-content-center align-items-center "
+              className="d-flex  justify-content-center align-items-center m-2"
               style={{
                 width: "3rem",
                 height: "3rem",
                 borderRadius: "3rem",
                 border: `2px solid #7345ac ${item.color}`,
-                backgroundColor: item.color,
-                padding: 5,
-                
+                backgroundColor: item.color
               }}
             >
               <img
                 src={item.src}
-                class="img-fluid rounded"
-                style={{ width: "1.6rem", height: "2rem" }}
+                class="img-fluid rounded img-responsive "
+                style={{ padding: 10 }}
               />
             </div>
-            <div className="d-flex text-center  align-items-start" style={{fontSize:12}}>{item.text}</div>
+            <p style={{fontSize:12, textAlign:'center',fontFamily:'Noto Kufi Arabic'}}>{item.text}</p>
           </div>
         ))}
       </div>

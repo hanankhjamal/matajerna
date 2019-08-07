@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import Banners from "../../components/Banners/Banners";
 import Categories from "../../components/Categories/Categories";
 import Products from "../../components/Products/Products";
+import BannerBottom from "../../components/BannerBottom/BannerBottom";
 import Footer from "../../components/Footer/Footer";
 class Full extends Component {
   state = {};
@@ -15,6 +16,8 @@ class Full extends Component {
           <Banners />
           <Categories />
           <Products />
+          <BannerBottom />
+        
           <Footer />
         </div>
       </div>

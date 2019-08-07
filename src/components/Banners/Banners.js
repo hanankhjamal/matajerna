@@ -1,22 +1,24 @@
 import React, { Component } from "react";
-import banner1 from "../../assets/images/banners/banner-1.png";
-import banner2 from "../../assets/images/banners/banner-2.png";
 class Banners extends Component {
+  state = {};
   render() {
     return (
       <div>
-        <div class="container-fluid px-0">
-          <div class="row mx-0">
-            <div class="col-12 px-0">
-              <img src={banner1} class="img-fluid w-100" />
+        <div className="container-fluid px-0">
+          <div className="row mx-0">
+            <div className="col-12 px-0">
+              <img
+                src={require("../../assets/images/banners/banner-1.png")}
+                className="img-fluid w-100"
+              />
             </div>
           </div>
         </div>
 
-        <div class="container-fluid mt-3">
-          <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-              <img src={banner2} class="img-fluid w-50" />
+        <div className="container-fluid mt-3">
+          <div className="row">
+            <div className="col-12 d-flex justify-content-center">
+              <img src={require("../../assets/images/banners/banner-2.png")} className="img-fluid w-50" />
             </div>
           </div>
         </div>

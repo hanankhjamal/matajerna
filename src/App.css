@@ -1,6 +1,24 @@
-.app-header.navbar {
-  position: relative;
-  flex-direction: row;
+body {
+  font-family: "Noto Kufi Arabic";
+}
+@media screen and (min-width: 400px) {
+  container {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+    background-color: lavender;
+  }
+}
+
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  src: url("../src/assets/fonts/ArbFONTS-NotoKufiArabic-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @keyframes App-logo-spin {

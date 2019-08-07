@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Miriam";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../public/fonts/ArbFONTS-NotoKufiArabic-Regular.ttf");
+  src: url("../../../public/fonts/ArbFONTS-22015-notokufiarabic-regular.ttf")
+    format("truetype");
+}

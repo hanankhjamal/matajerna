@@ -7,8 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p style={{fontFamily:'Noto Kufi Arabic'}}>
+          أهلا وسهلا بكم
+        </p> 
+        <p >
+        أهلا وسهلا بكم
         </p>
         <a
           className="App-link"
