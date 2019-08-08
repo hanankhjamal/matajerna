@@ -8,6 +8,7 @@ import BannerBottom from "../../components/BannerBottom/BannerBottom";
 import Footer from "../../components/Footer/Footer";
 import { Animated } from "react-animated-css";
 
+import './Full.css'
 class Full extends Component {
   state = {};
   render() {

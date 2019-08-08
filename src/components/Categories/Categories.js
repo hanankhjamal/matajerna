@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./Categories.css";
+
 import home from "../../assets/images/categories/home.png";
 import car from "../../assets/images/categories/car.png";
 import game from "../../assets/images/categories/game.png";
@@ -38,26 +40,22 @@ class Categories extends Component {
   };
   render() {
     return (
-      <div className="container  d-flex flex-row" style={{ overflowX: "auto" }}>
+      <div className="container d-flex flex-row cat-scroll">
         {this.state.categories.map(item => (
           <div className="mt-4">
             <div
-              className="d-flex  justify-content-center align-items-center m-2"
+              className="d-flex  justify-content-center align-items-center m-2 circle"
               style={{
-                width: "3rem",
-                height: "3rem",
-                borderRadius: "3rem",
                 border: `2px solid #7345ac ${item.color}`,
                 backgroundColor: item.color
               }}
             >
               <img
                 src={item.src}
-                class="img-fluid rounded img-responsive "
-                style={{ padding: 10 }}
+                class="img-fluid rounded img-responsive p10"
               />
             </div>
-            <p style={{fontSize:11, textAlign:'center',fontWeight:'700',fontFamily:'Noto Kufi Arabic'}}>{item.text}</p>
+            <p className="cat-title">{item.text}</p>
           </div>
         ))}
       </div>

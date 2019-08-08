@@ -1,0 +1,17 @@
+.cat-scroll {
+  overflow-x: auto;
+}
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+.p10 {
+  padding: 10px;
+}
+
+.cat-title {
+  font-size: 11px;
+  text-align: center;
+  font-weight: 700;
+}
