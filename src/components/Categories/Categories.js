@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Animated } from "react-animated-css";
+
 import "./Categories.css";
 
 import home from "../../assets/images/categories/home.png";
@@ -40,6 +42,11 @@ class Categories extends Component {
   };
   render() {
     return (
+      <Animated
+        animationIn="slideInUp"
+        animationOut="slideOutDown"
+        isVisible={true}
+      >
       <div className="container d-flex flex-row cat-scroll">
         {this.state.categories.map(item => (
           <div className="mt-4">
@@ -59,6 +66,7 @@ class Categories extends Component {
           </div>
         ))}
       </div>
+      </Animated>
     );
   }
 }
