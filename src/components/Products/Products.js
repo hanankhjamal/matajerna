@@ -203,7 +203,7 @@ class Products extends Component {
               </p>
             </div>
             <div className="d-flex flex-row ">
-              <Col md={6} className="pr-2">
+              <Col md={9} className="pr-2">
                 <p
                   className="m-0 mb-1 p-0 pb-1"
                   style={{
@@ -217,7 +217,7 @@ class Products extends Component {
                   {"السعر من الأعلى الى الأقل"}
                 </p>
               </Col>
-              <Col md={6} className="d-flex justify-content-end pl-1">
+              <Col md={3} className="d-flex justify-content-end pl-1">
                 <img
                   src={require("../../assets/images/down-arrow.png")}
                   className="img-responsive"
