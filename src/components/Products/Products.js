@@ -163,7 +163,7 @@ class Products extends Component {
                   className="m-0 mb-1 p-0 pb-1"
                   style={{
                     color: "#4d4d4d",
-                    fontSize: 14,
+                    fontSize: 11,
                     fontWeight: "700",
                     lineHeight: 1,
                     fontFamily: "Noto Kufi Arabic"
@@ -182,6 +182,7 @@ class Products extends Component {
             </div>
           </Col>
           <Col
+            className="ml-2 mb-2"
             md={3}
             style={{
               borderRadius: 30,
@@ -189,26 +190,25 @@ class Products extends Component {
               textAlign: "right"
             }}
           >
-            <div className="pr-3">
+            <div className="pr-2">
               <p
-                className="m-0 mt-1 p-0"
+                className="m-0 mt-1 p-0 "
                 style={{
                   color: "#4d4d4d",
                   fontSize: 12,
-                  fontFamily: "Noto Kufi Arabic",
-                  fontWeight: "400"
+                  fontFamily: "Noto Kufi Arabic"
                 }}
               >
-                {"ترتيب حسب"}
+                {"الترتيب حسب"}
               </p>
             </div>
             <div className="d-flex flex-row ">
-              <Col md={9}>
+              <Col md={6} className="pr-2">
                 <p
                   className="m-0 mb-1 p-0 pb-1"
                   style={{
                     color: "#4d4d4d",
-                    fontSize: 13,
+                    fontSize: 11,
                     fontWeight: "700",
                     lineHeight: 1,
                     fontFamily: "Noto Kufi Arabic"
@@ -217,7 +217,7 @@ class Products extends Component {
                   {"السعر من الأعلى الى الأقل"}
                 </p>
               </Col>
-              <Col md={3} className="d-flex justify-content-end pl-0">
+              <Col md={6} className="d-flex justify-content-end pl-1">
                 <img
                   src={require("../../assets/images/down-arrow.png")}
                   className="img-responsive"
@@ -226,7 +226,7 @@ class Products extends Component {
               </Col>
             </div>
           </Col>
-        </Row>
+          </Row>
         <Row className="d-flex flex-row mt-4 p-0">
           <Col md={2} xs={2} className=" d-flex justify-content-start p-0">
             <img

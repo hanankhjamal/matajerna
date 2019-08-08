@@ -59,7 +59,7 @@ class BannerBottom extends Component {
             <img
               src={appstore}
               className="img-responsive"
-              style={{ width: 143, height: 39 }}
+              style={{ width: 140, height: 39,marginLeft: 9 }}
             />
           </div>
         </Col>

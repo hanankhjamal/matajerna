@@ -57,7 +57,7 @@ class Categories extends Component {
                 style={{ padding: 10 }}
               />
             </div>
-            <p style={{fontSize:12, textAlign:'center',fontFamily:'Noto Kufi Arabic'}}>{item.text}</p>
+            <p style={{fontSize:11, textAlign:'center',fontWeight:'700',fontFamily:'Noto Kufi Arabic'}}>{item.text}</p>
           </div>
         ))}
       </div>

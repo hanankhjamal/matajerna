@@ -29,7 +29,57 @@ class Footer extends Component {
             marginb: "5%"
           }}
         >
-          {this.state.footer.map(item => (
+          <Col md={3}>
+              <h3
+                style={{
+                  color: "#b5b5b5",
+                  fontSize: 18,
+                  textAlign: "right",
+                  fontWeight: "200",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"تاجركم"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 15,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"من نحن"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 14,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"أعلن عن متاجرنا"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 14,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"تواصل معنا"}
+              </h3>
+            </Col>
+
             <Col md={3}>
               <h3
                 style={{
@@ -80,7 +130,97 @@ class Footer extends Component {
                 {"تواصل معنا"}
               </h3>
             </Col>
-          ))}
+
+
+            <Col md={3}>
+              <h3
+                style={{
+                  color: "#b5b5b5",
+                  fontSize: 18,
+                  textAlign: "right",
+                  fontWeight: "200",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"معلومات"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 15,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"سياسة الخصوصية"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 14,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"شروط الاستخدام"}
+              </h3>
+            </Col>
+
+            <Col md={3}>
+              <h3
+                style={{
+                  color: "#b5b5b5",
+                  fontSize: 18,
+                  textAlign: "right",
+                  fontWeight: "200",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"مساعدة"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 15,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"من نحن"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 14,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"أعلن عن متاجرنا"}
+              </h3>
+              <h3
+                style={{
+                  color: "#707070",
+                  fontSize: 14,
+                  fontWeight: "700",
+                  textAlign: "right",
+                  fontFamily: "Noto Kufi Arabic",
+                  lineHeight: 1.8
+                }}
+              >
+                {"تواصل معنا"}
+              </h3>
+            </Col>
         </Row>
 
         <div

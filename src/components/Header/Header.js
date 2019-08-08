@@ -5,7 +5,10 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div className="container mb-2 mt-2" style={{ backgroundColor: '"#fff"' }}>
+      <div
+        className="container mb-1 mt-1"
+        style={{ backgroundColor: '"#fff"' }}
+      >
         <Row>
           <Col
             xs={3}
@@ -26,7 +29,11 @@ class Header extends Component {
           >
             <div
               className="d-flex flex-row align-items-center"
-              style={{ backgroundColor: "#efefef", borderRadius: 28, padding:8 }}
+              style={{
+                backgroundColor: "#efefef",
+                borderRadius: 28,
+                padding: 8
+              }}
             >
               <img
                 src={require("../../assets/images/search.png")}
@@ -37,7 +44,7 @@ class Header extends Component {
               <Input
                 className="search-input"
                 style={{
-                  width: "80%",
+                  width: "95%",
                   backgroundColor: "#efefef",
                   color: "#bbbbbb",
                   fontFamily: "Noto Kufi Arabic",
@@ -151,7 +158,7 @@ class Header extends Component {
               <img
                 src={require("../../assets/images/big_pic.png")}
                 alt="notification"
-                style={{ width: 40, height: 40 }}
+                style={{ width: 40, height: 40, marginLeft: 10 }}
                 className="img-responsive rounded-circle"
               />
 
@@ -172,6 +179,7 @@ class Header extends Component {
                 src={require("../../assets/images/chat.png")}
                 alt="notification"
                 className="img-responsive"
+                style={{ marginLeft: 10  }}
               />
             </div>
             <div className="d-flex align-items-center">
@@ -192,6 +200,7 @@ class Header extends Component {
                 src={require("../../assets/images/notification.png")}
                 alt="notification"
                 className="img-responsive"
+                style={{ marginLeft: 10 }}
               />
             </div>
           </Col>
